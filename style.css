@@ -1,0 +1,39 @@
+.item{
+    border: 1px solid black;
+    padding: 8px 16px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column-gap: 16px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-row-gap: 16px;
+}
+
+.item5{
+    grid-column:1/3
+}
+.item9{
+    grid-row: 6/8;
+}
+
+
+
+
+.flex-container{
+    height: 400px;
+    display: flex;				  
+    flex-flow: column;	
+    flex-wrap: wrap;	  
+    justify-content: flex-start;  
+  }
+
+  .flex {
+    border: 1px solid black;
+    margin: 7px;
+    height: 50px;
+    line-height: 50px;
+    row-gap: 106px;
+
+  }

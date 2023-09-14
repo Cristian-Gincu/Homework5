@@ -1,0 +1,75 @@
+body{
+    margin: 0;
+}
+
+.container{
+    width: 350px;
+    height: 2560px;
+    border: none;
+    margin: 16px auto;
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+}
+
+.title{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+}
+
+.label{
+    margin: 8px 16px;
+}
+.p{
+    text-align: center;
+}
+
+.userInput{
+    width: 300px;
+    padding: 10px 20px;
+    border-color: transparent;
+    border-bottom: 1px solid darkgrey;
+    font-size: 15px;
+}
+.userInput:focus{
+    outline: none;
+  }
+
+.button {
+    border: none;
+    color: white;
+    padding: 15px 22px ;
+    width: 300px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .submit {
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    border: 2px solid #000000;
+  }
+  
+  .submit:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+  }
+
+  .Login{
+    border: none;
+    font-style: bold;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
+  .Login:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+  }
